@@ -1,0 +1,27 @@
+{
+  "name": "taskhub",
+  "version": "1.0.0",
+  "description": "Sistema de Gerenciamento de Tarefas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianoedipo/tm01.git"
+  },
+  "keywords": [
+    "tarefas",
+    "gerenciamento",
+    "nodejs"
+  ],
+  "author": "Luciano Édipo",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/lucianoedipo/tm01/issues"
+  },
+  "homepage": "https://github.com/lucianoedipo/tm01#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
