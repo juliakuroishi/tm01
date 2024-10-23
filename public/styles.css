@@ -1,11 +1,44 @@
+:root {
+    --background: #272626;
+    --background-footer: #313131;
+    --destaque: rgb(252, 124, 145);
+    --textos: rgb(248, 237, 237);
+}
+
 body {
     font-family: Arial, sans-serif;
+    color: var(--textos);
+    background-color: var(--background);
 }
 
 header {
-    background-color: #f8f9fa;
+    
     padding: 20px;
     text-align: center;
+
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover{
+        color: var(--destaque);
+
+    }
+
+    a:active{
+        color: var(--destaque);
+        
+    }
 }
 
 main {
@@ -13,9 +46,14 @@ main {
 }
 
 footer {
-    background-color: #f8f9fa;
+    background-color: var(--background-footer);
     padding: 20px;
     text-align: center;
+
+    p a {
+        text-decoration:underline;
+        color: inherit; 
+    }
 }
 
 #taskList {
