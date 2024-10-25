@@ -1,21 +1,24 @@
 :root {
-    --background: #272626;
-    --background-footer: #313131;
-    --destaque: rgb(252, 124, 145);
-    --textos: rgb(248, 237, 237);
+    --background: #3C424A;
+    --background-footer: #343A40;
+    --destaque: #E55C8A;
+    --textos: #E1EAF2;
+    --texto-nao-selecionao: #767d8a ;
 }
 
 body {
     font-family: Arial, sans-serif;
     color: var(--textos);
     background-color: var(--background);
+    width: 65%;
+    margin: 0 auto;
 }
 
 header {
     
     padding: 20px;
     text-align: center;
-
+    border-bottom: 3px solid var(--background-footer);
 }
 
 
@@ -24,6 +27,7 @@ nav ul {
     justify-content: center;
     gap: 25px;
     list-style: none;
+    color: var(--texto-nao-selecionao);
 
     a {
         text-decoration: none;
@@ -31,12 +35,13 @@ nav ul {
     }
 
     a:hover{
-        color: var(--destaque);
+        color: var(--textos);
+        text-decoration: underline var(--destaque);
 
     }
 
-    a:active{
-        color: var(--destaque);
+    li a:active{
+        color: red;
         
     }
 }
